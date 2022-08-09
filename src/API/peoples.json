@@ -1,0 +1,157 @@
+[
+  {
+    "rank": 6,
+    "name": "А Ран",
+    "image": "asianEstetic.jpg",
+    "time": "Sun Aug 07 2022 16:52:53 GMT+0300 (Москва, стандартное время)",
+    "speed": 150
+  },
+  {
+    "rank": 7,
+    "name": "Анги",
+    "image": "asianGirl.jpg",
+    "time": "Sun Aug 07 2022 16:55:38 GMT+0300 (Москва, стандартное время)",
+    "speed": 213
+  },
+  {
+    "rank": 8,
+    "name": "Хё На",
+    "image": "asianKrasota.jpg",
+    "time": "Sun Aug 07 2022 16:55:40 GMT+0300 (Москва, стандартное время)",
+    "speed": 100
+  },
+  {
+    "rank": 11,
+    "name": "Хе Рим",
+    "image": "asianSosochka.jpg",
+    "time": "Sun Aug 07 2022 16:55:42 GMT+0300 (Москва, стандартное время)",
+    "speed": 50
+  },
+  {
+    "rank": 9,
+    "name": "Хёджин",
+    "image": "cosplay.jpg",
+    "time": "Sun Aug 07 2022 16:57:34 GMT+0300 (Москва, стандартное время)",
+    "speed": 90
+  },
+  {
+    "rank": 2,
+    "name": "Мисук",
+    "image": "devochka.jpg",
+    "time": "Sun Aug 07 2022 16:57:40 GMT+0300 (Москва, стандартное время)",
+    "speed": 290
+  },
+  {
+    "rank": 1,
+    "name": "На Ён",
+    "image": "krasivaya.jpg",
+    "time": "Sun Aug 07 2022 16:57:47 GMT+0300 (Москва, стандартное время)",
+    "speed": 300
+  },
+  {
+    "rank": 10,
+    "name": "Дасом",
+    "image": "krasota.jpg",
+    "time": "Sun Aug 07 2022 16:58:14 GMT+0300 (Москва, стандартное время)",
+    "speed": 85
+  },
+  {
+    "rank": 5,
+    "name": "Йе Рим",
+    "image": "krasotka.jpg",
+    "time": "Sun Aug 07 2022 16:58:00 GMT+0300 (Москва, стандартное время)",
+    "speed": 178
+  },
+  {
+    "rank": 3,
+    "name": "Ю Чжин",
+    "image": "lol.jpg",
+    "time": "Sun Aug 07 2022 16:57:54 GMT+0300 (Москва, стандартное время)",
+    "speed": 200
+  },
+  {
+    "rank": 4,
+    "name": "Юнаги",
+    "image": "prekrasno.jpg",
+    "time": "Sun Aug 07 2022 16:58:06 GMT+0300 (Москва, стандартное время)",
+    "speed": 190
+  },
+
+  {
+    "rank": 22,
+    "name": "Че райо",
+    "image": "asianEstetic.jpg",
+    "time": "Sun Aug 07 2022 16:55:53 GMT+0300 (Москва, стандартное время)",
+    "speed": 153
+  },
+  {
+    "rank": 13,
+    "name": "Панга",
+    "image": "asianGirl.jpg",
+    "time": "Sun Aug 07 2022 16:58:38 GMT+0300 (Москва, стандартное время)",
+    "speed": 123
+  },
+  {
+    "rank": 14,
+    "name": "Кё Мисан",
+    "image": "asianKrasota.jpg",
+    "time": "Sun Aug 07 2022 16:59:40 GMT+0300 (Москва, стандартное время)",
+    "speed": 111
+  },
+  {
+    "rank": 15,
+    "name": "Миса",
+    "image": "asianSosochka.jpg",
+    "time": "Sun Aug 07 2022 16:59:47 GMT+0300 (Москва, стандартное время)",
+    "speed": 143
+  },
+  {
+    "rank": 12,
+    "name": "Джени",
+    "image": "cosplay.jpg",
+    "time": "Sun Aug 07 2022 16:59:54 GMT+0300 (Москва, стандартное время)",
+    "speed": 124
+  },
+  {
+    "rank": 16,
+    "name": "Жасмин",
+    "image": "devochka.jpg",
+    "time": "Sun Aug 07 2022 16:59:10 GMT+0300 (Москва, стандартное время)",
+    "speed": 193
+  },
+  {
+    "rank": 17,
+    "name": "Ми Парк",
+    "image": "krasivaya.jpg",
+    "time": "Sun Aug 07 2022 16:58:58 GMT+0300 (Москва, стандартное время)",
+    "speed": 38
+  },
+  {
+    "rank": 18,
+    "name": "Ле Дасом",
+    "image": "krasota.jpg",
+    "time": "Sun Aug 07 2022 16:59:14 GMT+0300 (Москва, стандартное время)",
+    "speed": 57
+  },
+  {
+    "rank": 19,
+    "name": "Йе Чан",
+    "image": "krasotka.jpg",
+    "time": "Sun Aug 07 2022 16:58:58 GMT+0300 (Москва, стандартное время)",
+    "speed": 125
+  },
+  {
+    "rank": 20,
+    "name": "Ли Мирим",
+    "image": "lol.jpg",
+    "time": "Sun Aug 07 2022 16:57:54 GMT+0300 (Москва, стандартное время)",
+    "speed": 189
+  },
+  {
+    "rank": 21,
+    "name": "Юна",
+    "image": "prekrasno.jpg",
+    "time": "Sun Aug 07 2022 16:59:59 GMT+0300 (Москва, стандартное время)",
+    "speed": 120
+  }
+]

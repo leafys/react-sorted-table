@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import data from 'API/peoples.json';
+
+import MainTable from 'components/MainTable';
+import { TableDataContext } from 'Services/Context/TableContext';
 
 function App() {
+  const [peoples, setPeoples] = React.useState([]);
+
+  React.useEffect(() => {
+    setPeoples(data);
+  }, []);
+
+  const columns = [
+    { label: 'Rank', accessor: 'rank', input: false },
+    { label: 'Name', accessor: 'name', input: true },
+    { label: 'Finish time', accessor: 'time', input: false },
+    { label: 'Speed', accessor: 'speed', input: false },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1>Table</h1>
+
+      <TableDataContext.Provider value={columns}>
+        <MainTable {...{ peoples }} />
+      </TableDataContext.Provider>
     </div>
   );
 }

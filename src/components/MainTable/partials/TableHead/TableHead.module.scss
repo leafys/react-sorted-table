@@ -1,0 +1,15 @@
+.thead {
+  tr {
+    th {
+      cursor: pointer;
+      user-select: none;
+
+      input {
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 0 10px;
+        outline: none;
+      }
+    }
+  }
+}
