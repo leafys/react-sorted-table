@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './TableBody.module.scss';
 import dayjs from 'dayjs';
 
-const TableBody = ({ filteredPeoples }) => {
+const TableBody = ({ tableData }) => {
   return (
     <tbody className={styles.tbody}>
-      {filteredPeoples.map((item) => (
+      {tableData.map((item) => (
         <tr key={item.rank}>
           <td>{item.rank}</td>
           <td className={styles.tbody__nameTd}>

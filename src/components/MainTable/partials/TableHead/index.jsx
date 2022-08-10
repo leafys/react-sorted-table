@@ -5,6 +5,10 @@ import styles from './TableHead.module.scss';
 const TableHead = ({ handleSortingChange, searchValue, setSearchValue }) => {
   const columns = React.useContext(TableDataContext);
 
+  const onHandlerChange = (e) => {
+    setSearchValue(e.target.value);
+  };
+
   return (
     <thead className={styles.thead}>
       <tr>
@@ -15,7 +19,7 @@ const TableHead = ({ handleSortingChange, searchValue, setSearchValue }) => {
             {input && (
               <input
                 value={searchValue}
-                onChange={(e) => setSearchValue(e.target.value)}
+                onChange={(e) => onHandlerChange(e)}
                 onClick={(e) => e.stopPropagation()}
               />
             )}

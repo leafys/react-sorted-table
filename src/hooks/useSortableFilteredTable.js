@@ -1,17 +1,17 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-export const useSortableTable = (data, searchValue) => {
-  const [tableData, setTableData] = useState([]);
+export const useSortableFilteredTable = (data, searchValue) => {
+  const [peopleData, setPeopleData] = useState([]);
   const [sortField, setSortField] = useState('');
   const [order, setOrder] = useState('asc');
 
   useEffect(() => {
-    setTableData(data);
+    setPeopleData(data);
   }, [data]);
 
   const handleSorting = (sortField, sortOrder) => {
     if (sortField) {
-      const sorted = [...tableData].sort((a, b) => {
+      const sorted = [...peopleData].sort((a, b) => {
         if (a[sortField] === null) return 1;
         if (b[sortField] === null) return -1;
         if (a[sortField] === null && b[sortField] === null) return 0;
@@ -22,7 +22,7 @@ export const useSortableTable = (data, searchValue) => {
           }) * (sortOrder === 'asc' ? 1 : -1)
         );
       });
-      setTableData(sorted);
+      setPeopleData(sorted);
     }
   };
 
@@ -34,9 +34,15 @@ export const useSortableTable = (data, searchValue) => {
     handleSorting(accessor, sortOrder);
   };
 
-  const filteredPeoples = tableData.filter((people) => {
-    return people.name.toLowerCase().includes(searchValue.toLowerCase());
-  });
+  const filteredPeoples = React.useMemo(() => {
+    const trimSearchValue = searchValue.trim();
+
+    if (trimSearchValue.length <= 2) return peopleData;
+
+    return peopleData.filter((people) =>
+      people.name.toLowerCase().includes(trimSearchValue.toLowerCase())
+    );
+  }, [searchValue, peopleData]);
 
   return [handleSortingChange, filteredPeoples];
 };
